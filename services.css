@@ -1,0 +1,90 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:white;
+border-bottom:1px solid #eee;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:600;
+font-size:18px;
+}
+
+.logo-box{
+background:linear-gradient(#f7b21f,#ff7a3d);
+color:white;
+padding:8px 10px;
+border-radius:6px;
+font-weight:600;
+}
+span{
+ color:#0d3b66;
+ font-size: 25px;
+ 
+}
+span2{
+ color:#ff7a3d;
+ 
+}
+nav ul{
+display:flex;
+list-style:none;
+gap:40px;
+font-size: 17px;
+color:#0d3b66;
+}
+
+nav a{
+text-decoration:none;
+color:#0d3b66;
+}
+.nav a:hover{
+color:#ff7a3d;
+}
+.nav-buttons button{
+margin-left:10px;
+padding:10px 16px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.admin-btn{
+background:#ff7a3d;
+color:white;
+
+}
+.admin-btn:hover{
+background:#ff7a3d;
+color:white;
+transform:scale(1.05);
+}
