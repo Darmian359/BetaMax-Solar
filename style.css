@@ -212,7 +212,7 @@ nav ul li a:hover {
   /* SHOW HAMBURGER */
   .menu-toggle {
     display: block;
-	margin-right:-110px;
+	margin-right:-220px;
   }
 
   /* HIDE NAV INITIALLY */
@@ -864,6 +864,7 @@ h5{
   padding: 60px 8%;
   background:linear-gradient(#f7b21f,#fff);
   text-align: center;
+	margin-top:-30px;
 }
 
 .features h2 {
