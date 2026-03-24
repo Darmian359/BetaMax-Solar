@@ -209,10 +209,28 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
 
+
+	
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:600;
+font-size:12px;
+margin-left: -110px;
+}
+
+.logo-box{
+background:linear-gradient(#f7b21f,#ff7a3d);
+color:white;
+padding:6px 8px;
+border-radius:6px;
+font-weight:600;
+}
   /* SHOW HAMBURGER */
   .menu-toggle {
     display: block;
-	margin-right:-220px;
+	margin-right:-300px;
   }
 
   /* HIDE NAV INITIALLY */
