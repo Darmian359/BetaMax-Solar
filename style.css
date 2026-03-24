@@ -212,7 +212,7 @@ nav ul li a:hover {
   /* SHOW HAMBURGER */
   .menu-toggle {
     display: block;
-	margin-right:-90px;
+	margin-right:-110px;
   }
 
   /* HIDE NAV INITIALLY */
@@ -260,7 +260,7 @@ nav ul li a:hover {
 .hero-stats{
 display:flex;
 gap:40px;
-margin-top:35px;
+margin-top:40px;
 	margin-left:50px;
 }
 }
