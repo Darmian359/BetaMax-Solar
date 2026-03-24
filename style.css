@@ -212,6 +212,7 @@ nav ul li a:hover {
   /* SHOW HAMBURGER */
   .menu-toggle {
     display: block;
+	margin-left:-50px;
   }
 
   /* HIDE NAV INITIALLY */
