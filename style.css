@@ -214,6 +214,12 @@ nav ul li a:hover {
     display: block;
 	margin-right:-280px;
   }
+	.back-btn{
+		margin-left:-30px;
+	}
+	.seemore-btn{
+		margin-left:-30px;
+	}
 
   /* HIDE NAV INITIALLY */
   nav ul {
