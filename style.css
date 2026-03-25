@@ -733,9 +733,9 @@ color:rgb(255, 255, 255);
 padding:10px 20px;
 border-radius:20px;
 text-decoration:none;
-margin-top:-20px;
+margin-top:20px;
 margin-bottom: 20px;
-margin-left: -5%;
+margin-left: 5%;
 transition:0.3s;
 }
 
@@ -752,7 +752,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 gap:8px;
-margin-top:40px;
+margin-top:20px;
 flex-wrap:wrap;
 }
 
