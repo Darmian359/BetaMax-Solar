@@ -36,58 +36,121 @@ display:flex;
 align-items:center;
 gap:10px;
 font-weight:600;
-font-size:18px;
+font-size:12px;
+margin-left: -110px;
 }
 
 .logo-box{
 background:linear-gradient(#f7b21f,#ff7a3d);
 color:white;
-padding:8px 10px;
+padding:6px 8px;
 border-radius:6px;
 font-weight:600;
 }
 span{
  color:#0d3b66;
- font-size: 25px;
- 
+ font-size: 20px;
+
 }
 span2{
  color:#ff7a3d;
  
 }
-nav ul{
-display:flex;
-list-style:none;
-gap:40px;
-font-size: 17px;
-color:#0d3b66;
-}
 
-nav a{
-text-decoration:none;
-color:#0d3b66;
-}
+
+span3{
+ color:#ff7a3d;
+ }
+ 
 .nav a:hover{
 color:#ff7a3d;
 }
-.nav-buttons button{
-margin-left:10px;
-padding:10px 16px;
-border:none;
-border-radius:6px;
-cursor:pointer;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.admin-btn{
-background:#ff7a3d;
-color:white;
+/* ===================== */
+/* NAVBAR */
+/* ===================== */
 
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  background: #fff;
+  position: relative;
 }
-.admin-btn:hover{
-background:#ff7a3d;
-color:white;
-transform:scale(1.05);
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.logo-box {
+  background: #ff7a3d;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.logo span {
+  font-weight: 600;
+  color: #0b3d91;
+}
+
+/* NAV LINKS */
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0b3d91;
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ff7a3d;
+}
+
+/* BUTTON */
+.nav-buttons .admin-btn {
+  background: #ff7a3d;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: -110px;
+}
+
+.nav-buttons .admin-btn:hover {
+  background: #ff7a3d;
+  color: #ffffff;
+}
+
+/* ===================== */
+/* HAMBURGER */
+/* ===================== */
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
 .faq-section{
 padding:80px 0;
 background:#f7f9fc;
@@ -224,4 +287,151 @@ border-top:1px solid rgba(255,255,255,0.2);
 padding:20px;
 font-size:14px;
 color:#d1d5db;
+}
+
+
+@media (max-width: 768px) {
+
+  /* Show dropdown contact */
+  .mobile-contact {
+    display: block;
+  }
+
+  /* Hide desktop button */
+  .nav-buttons {
+    display: none;
+  }
+
+  /* Style it nicely */
+  .mobile-contact .contact-btn {
+    background: #ff7a3d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  
+.mobile-contact {
+  margin-top: 10px;
+}
+}
+
+/* ===================== */
+/* HAMBURGER */
+/* ===================== */
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+
+/* NAV LINKS */
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0b3d91;
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ff7a3d;
+}
+
+/* BUTTON */
+.nav-buttons .admin-btn {
+  background: #ff7a3d;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: -110px;
+}
+
+.nav-buttons .admin-btn:hover {
+  background: #ff7a3d;
+  color: #ffffff;
+}
+
+/* ===================== */
+/* MOBILE RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 768px) {
+	
+  /* SHOW HAMBURGER */
+  .menu-toggle {
+    display: block;
+	margin-right:-280px;
+  }
+	.back-btn{
+		margin-left:-220px;
+	}
+	.seemore-btn{
+		margin-left:-220px;
+	}
+
+  /* HIDE NAV INITIALLY */
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  /* ACTIVE MENU */
+  nav ul.active {
+    display: flex;
+  }
+
+  /* MOVE BUTTON INTO MENU */
+  .nav-buttons {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  /* Show dropdown contact */
+  .mobile-contact {
+    display: block;
+  }
+
+  /* Hide desktop button */
+  .nav-buttons {
+    display: none;
+  }
+
+  /* Style it nicely */
+  .mobile-contact .contact-btn {
+    background: #ff7a3d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  
+.mobile-contact {
+  margin-top: 10px;
+}
+}
+.mobile-contact {
+  display: none;
 }

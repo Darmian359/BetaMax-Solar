@@ -686,7 +686,7 @@ max-width:1200px;
 margin:auto;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:40px;
+gap:70px;
 padding:0 20px 60px;
 }
 
@@ -752,7 +752,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 gap:8px;
-margin-top:20px;
+margin-top:-10px;
 flex-wrap:wrap;
 }
 
@@ -919,3 +919,37 @@ h5{
   font-size: 14px;
   line-height: 1.5;
 }
+.mobile-contact {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  /* Show dropdown contact */
+  .mobile-contact {
+    display: block;
+  }
+
+  /* Hide desktop button */
+  .nav-buttons {
+    display: none;
+  }
+
+  /* Style it nicely */
+  .mobile-contact .contact-btn {
+    background: #ff7a3d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  
+.mobile-contact {
+  margin-top: 10px;
+}
+h5{
+  margin-left: 30%;
+
+}
+}
+
