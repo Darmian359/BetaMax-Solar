@@ -10,11 +10,11 @@ font-family:Poppins;
 }
 body{
 background:#f5f7fb;
-color:#333;
+color:#242323;
 }
 
 .container{
-width:90%;
+width:100%;
 max-width:1200px;
 margin:auto;
 }
@@ -88,7 +88,7 @@ color:#ff7a3d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 8%;
+  padding: 3px 8%;
   background: #fff;
   position: relative;
 }
@@ -219,7 +219,19 @@ nav ul li a:hover {
 	.seemore-btn{
 		margin-left:-220px;
 	}
-
+  .logo img{
+ height:70px;
+ width:auto;
+ margin-left: 40px;
+  }
+  
+span1{
+ color:#0d3b66;
+ font-size: 23px;
+ margin-left:-80px;
+font-family:Poppins;
+font-weight: 600;
+}
   /* HIDE NAV INITIALLY */
   nav ul {
     position: absolute;
