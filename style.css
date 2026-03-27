@@ -224,14 +224,7 @@ nav ul li a:hover {
  width:auto;
  margin-left: 30%;
   }
-  
-span1{
- color:#0d3b66;
- font-size: 23px;
- margin-left:40px;
-font-family:Poppins;
-font-weight: 600;
-}
+ 
   /* HIDE NAV INITIALLY */
   nav ul {
     position: absolute;
