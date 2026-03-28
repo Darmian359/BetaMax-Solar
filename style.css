@@ -11,7 +11,7 @@ color:#333;
 }
 
 .container{
-width:90%;
+width:95%;
 max-width:1200px;
 margin:auto;
 }
@@ -208,7 +208,7 @@ nav ul li a:hover {
   /* SHOW HAMBURGER */
   .menu-toggle {
     display: block;
-	margin-right:-240px;
+	margin-right:-200px;
   }
 	.back-btn{
 		margin-left:-220px;
@@ -219,13 +219,13 @@ nav ul li a:hover {
   .logo img{
  height:70px;
  width:auto;
- margin-left: 50px;
+ margin-left: 65px;
   }
  
 span1{
  color:#0d3b66;
  font-size: 23px;
- margin-left:3px;
+ margin-left:-10px;
 font-family:Poppins;
 font-weight: 600;
 
